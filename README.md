@@ -1,2 +1,6 @@
 # DETECTION-OF-TUBERCULOSIS
 Deteksi tuberkulosis menggunakan SVM dan Box Counting
+Tujuan: Menerapkan metode Box Counting untuk ekstraksi ciri citra rontgen thorax dan metode Support Vector Machine (SVM) untuk mengklasifikasikan citra TB dan normal.
+Perancangan/metode/pendekatan: Menggunakan metode Box Counting sebagai ekstraksi ciri citra X-Ray Thoraxdan Support Vector Machine karnel Linear untuk klasifikasi
+Hasil: Berdasarkan hasil ekstraksi fitur menggunakan Box Counting didapat nilai dimensi citra normal sebesar 1.0090-1.2492 dan memiliki nilai rata-rata sebesar 1.1866 dan pada citra TB memiliki nilai dimensi sebesar 1.1219-1.4404 dan memiliki nilai rata-rata 1.3016. Pengujian menggunakan Confusion Matrix menggunakan data sebanyak 240 cita X-Ray Thorax, perbandingan data latih dan data uji 80:20, memiliki akurasi sebesar 91,6%, presisi sebesar 92,3% dan Recall sebesar 92,3%. Hasil pengujian menunjukkan bahwa metode SVM dengan kernel Linear dapat melakukan deteksi citra X-Ray Thorax dengan baik.
+Keaslian/ state of the art: Perbedaan penelitian ini dengan penelitian sebelumnya adalah pada bagian preprocessing menggunakan histogram Equalization untuk meningkatkan kontras citra, pada bagian segmentasi menggunakan Convex Hull untuk segmentasi bagian paru-paru dan Box Counting sebagai ekstraksi fitur dari citra X-Ray Thorax
